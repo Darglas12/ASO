@@ -3,8 +3,8 @@
 # Fecha: 10/11/2025
 
 param(
-    [string]$OutputPath = "\\ServidorAula\Comparte_aula\Practica_PS", # Define la ruta donde guardar el inventario (por defecto una carpeta en la red) # Mejora 1: Parametrización de rutas
-    [string]$LogPath = "\\ServidorAula\Comparte_aula\Practica_PS\logs", # Define la ruta donde guardar el diario (log) (por defecto una subcarpeta en la red) # Mejora 1: Parametrización de rutas
+    [string]$OutputPath = "H:\ASR2", # Define la ruta donde guardar el inventario (por defecto una carpeta en la red) # Mejora 1: Parametrización de rutas
+    [string]$LogPath = "H:\ASR2", # Define la ruta donde guardar el diario (log) (por defecto una subcarpeta en la red) # Mejora 1: Parametrización de rutas
     [string]$SessionCode = "UT1_P1_DAG", # Código para identificar esta ejecución (como un nombre único para la receta)
     [switch]$Quiet = $true,  # Opción para silenciar el script (no muestra nada en pantalla, activado por defecto) # Mejora 10: Modo silencioso
     [switch]$c, # Interruptor para activar el modo "consolidación" (juntar varios inventarios) # Mejora 11: Consolidación sin interacción
