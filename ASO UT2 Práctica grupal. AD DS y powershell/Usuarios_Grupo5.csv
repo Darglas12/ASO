@@ -1,0 +1,7 @@
+﻿Nombre,Apellido,Usuario,OU,Grupo
+Ana,Ruiz,USRGrupo5_AnaR,OUGrupo5_Usuarios,GGGrupo5_Empleados
+Carlos,Martín,USRGrupo5_CarlosM,OUGrupo5_Usuarios,GGGrupo5_Admins
+Laura,Pérez,USRGrupo5_LauraP,OUGrupo5_Usuarios,GGGrupo5_Empleados
+David,Gómez,USRGrupo5_DavidG,OUGrupo5_Usuarios,GGGrupo5_Empleados
+Sara,López,USRGrupo5_SaraL,OUGrupo5_Usuarios,GGGrupo5_Empleados
+Mario,Díaz,USRGrupo5_MarioD,OUGrupo5_Usuarios,GGGrupo5_Admins
