@@ -1,8 +1,4 @@
-# Práctica 2 – UT4  
-## Administración remota de sistemas en red  
-**ASO – Curso 2025/2026**
-
----
+# Práctica 2 – UT4 Administración remota de sistemas en red  
 
 ## Objetivo de la práctica
 
@@ -52,10 +48,28 @@ El acceso se realiza desde Windows 11 usando el cliente PuTTY.
 ### Evidencias (capturas)
 
 - Servicio SSH activo en Ubuntu
+
+![imagen 1](Capturas/Servicio%20SSH%20activo.png)
+
 - Usuario remoto_ssh creado
-- Directorio .ssh y archivo authorized_keys con permisos correctos
+
+![imagen 2](Capturas/Usuario%20creado.png)
+
+- Claves generadas
+
+![imagen 3](Capturas/Claves%20generadas.png)
+
+- Acceso por contraseña deshabilitado.
+
+![imagen 4](Capturas/Acceso%20por%20contraseña%20deshabilitado.png)
+
 - Acceso SSH desde PuTTY sin solicitud de contraseña
+
+![imagen 5](Capturas/Acceso%20SSH%20desde%20PuTTY%20con%20remoto_ssh.png)
+
 - Intento de acceso denegado con un usuario distinto de remoto_ssh
+
+![imagen 6](Capturas/Acceso%20denegado%20a%20otro%20usuario.png)
 
 ---
 
@@ -98,11 +112,27 @@ El servidor Windows Server actúa como **Controlador de Dominio**, por lo que:
 
 ### Evidencias (capturas)
 
-- Usuario de dominio remoto_rdp creado en Active Directory
-- Usuario añadido al grupo **Remote Desktop Users**
-- Autenticación de nivel de red habilitada
+- Usuario de dominio remoto_rdp creado en Active Directory y añadido a su grupo correspondiente
+
+![imagen 7](Capturas/Usuario%20remoto_rdp%20creado%20y%20añadido%20al%20grupo%201.png)
+
+- Habilitación de escritorio remoto tanto en windows server 
+
+![imagen 8](Capturas/Habilitacion%20de%20escritorio%20remoto1.png)
+
+![imagen 9](Capturas/Habilitacion%20de%20escritorio%20remoto2.png)
+
+- Permitir en Directiva de Seguridad
+
+![imagen 10](Capturas/Permitir%20en%20Directiva%20de%20Seguridad.png)
+
 - Sesión RDP activa mostrando el escritorio del servidor
+
+![imagen 11](Capturas/Sesión%20RDP%20activa%20donde%20se%20vea%20escritorio%20del%20servidor%20y%20usuario%20remoto_rdp%20conectado.png)
+
 - Intento de acceso denegado con un usuario distinto de remoto_rdp
+
+![imagen 12](Capturas/Acceso%20denegado%20a%20otro%20usuario_ejercicio2.png)
 
 ---
 
