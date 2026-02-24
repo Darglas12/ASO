@@ -1,19 +1,8 @@
 # Práctica 1 – Automatización de Tareas (UT5 ASO 25/26)
 
-## Contexto
-Esta práctica tiene como objetivo automatizar tareas administrativas en entornos Windows Server mediante GPO y scripts.  
-
-Se realizaron dos automatizaciones principales:
-
-1. **Mapeo automático de unidades de red** según el grupo de seguridad del usuario.  
-2. **Script de limpieza automático** de archivos temporales en clientes, ejecutándose periódicamente sin intervención.
-
----
-
 ## Infraestructura
 - **Servidor:** Windows Server 2025  
 - **Cliente:** Windows 11  
-- **Red:** Privada  
 - **Active Directory:**  
   - `UO_Administracion`: user_admin1, user_admin2  
   - `UO_Informatica`: user_info1, user_info2  
@@ -33,7 +22,7 @@ Mapear automáticamente unidades de red según el grupo de seguridad del usuario
 1. Crear carpetas compartidas en servidor:
 
 | Carpeta local         | Nombre compartido     | Acceso |
-|----------------------|---------------------|--------|
+
 | C:\Compartidas\Admin | Compartida-Admin     | GRP_Administracion |
 | C:\Compartidas\Informatica | Compartida-Info | GRP_Informatica |
 | C:\Compartidas\Comun | Compartida-Todos     | Todos los usuarios |
@@ -70,8 +59,8 @@ Mapear automáticamente unidades de red según el grupo de seguridad del usuario
 
 6. Verificación en clientes:
 
-- `user_admin1` → Z: y X:  
-- `user_info1` → Y: y X:  
+- user_admin1 → Z: y X:  
+- user_info1 → Y: y X:  
 - Intentar acceso a recursos de otro grupo → “Acceso denegado”
 
 ![9](img/Sección%20“Unidades%20en%20cliente”.png)
